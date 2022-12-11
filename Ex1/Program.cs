@@ -17,7 +17,7 @@ for (int i = 0; i < numbers.Length; i++)
         count++;
     }
 }
-Console.WriteLine(count);
+Console.WriteLine($"Количество чётных чисел в массиве = {count}");
 
 void FillArrayRandomNumbers(int[] array)
 {

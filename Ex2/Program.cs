@@ -19,7 +19,7 @@ for (int i = 0; i < numbers.Length; i++)
         sum += numbers[i];
     }
 }
-Console.WriteLine(sum);
+Console.WriteLine($"Cумма элементов, стоящих на нечётных позициях = {sum}");
 
 void FillArrayRandomNumbers(int[] array)
 {
